@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Checkout</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+<div class="container">
+    <!-- Cart Section -->
+    <div class="cart-section">
+        <h2>Shopping Cart</h2>
+        
+        <!-- Cart Table -->
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2"> Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Item 1 -->
+                <tr class="cart-item">
+                    <td>
+                        <img src="sample.jpg" alt="Shirt">
+                    </td>
+                    <td>
+                        <div class="cart-item-details">
+                            <p>Dribbble Product Style 01</p>
+                            <p>#D5644566</p>
+                            <p>Size: S6 | Color: Black</p>
+                        </div>
+                    </td>
+                    <td>$166.00</td>
+                    <td><input type="number" value="2" min="1"></td>
+                    <td>$332.00</td>
+                </tr>
+                <!-- Item 2 -->
+                <tr class="cart-item">
+                    <td>
+                        <img src="sample.jpg" alt="Sweater">
+                    </td>
+                    <td>
+                        <div class="cart-item-details">
+                            <p>Dribbble Product Style 01</p>
+                            <p>#D5644566</p>
+                            <p>Size: S6 | Color: Black</p>
+                        </div>
+                    </td>
+                    <td>$166.00</td>
+                    <td><input type="number" value="1" min="1"></td>
+                    <td>$166.00</td>
+                </tr>
+                <!-- Item 3 -->
+                <tr class="cart-item">
+                    <td>
+                        <img src="sample.jpg" alt="Dress">
+                    </td>
+                    <td>
+                        <div class="cart-item-details">
+                            <p>Dribbble Product Style 01</p>
+                            <p>#D5644566</p>
+                            <p>Size: S6 | Color: Black</p>
+                        </div>
+                    </td>
+                    <td>$166.00</td>
+                    <td><input type="number" value="3" min="1"></td>
+                    <td>$498.00</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <button class="update-cart">Empty Cart</button>
+        <a href="http://"> Continue Shopping </a>
+    </div>
+
+    <!-- Summary Section -->
+    <div class="summary-section">
+        <h3 class="summary1">Discount / Promo Code</h3>
+        <p>Don't have any code yet? Go to our promotional program</p>
+        
+        <div class="promo-section">
+            <input type="text" placeholder="Promo Code Here">
+            <button class="apply-btn">Apply</button>
+        </div>
+
+        <hr>
+
+        <p>Subtotal: $996.00</p>
+        
+        <p>
+            <input type="radio" name="shipping" checked> Flat rate: $996.00
+            <br>
+            <input type="radio" name="shipping"> Free Shipping
+        </p>
+
+        <p>Address:</p>
+        <p>Kyla Olsen, 651-8679 Sodales Av., Tamuning PA 10855</p>
+        <p><a href="#">Change Address</a></p>
+
+        <p><strong>Total: $1010.00</strong></p>
+
+        <button class="checkout-btn">Checkout</button>
+    </div>
+</div>
+
+<!-- Cart Add-ons -->
+<div class="cart-addons">
+    <h2>Frequent Add-ons</h2>
+    <div class="addons-list">
+        <div class="addon-item">
+            <img src="sample.jpg" alt="Addon">
+            <p>WordPress Pennant</p>
+            <p>$11.05</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="addon-item">
+            <img src="sample.jpg" alt="Addon">
+            <p>WordPress Pennant</p>
+            <p>$11.05</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="addon-item">
+            <img src="sample.jpg" alt="Addon">
+            <p>WordPress Pennant</p>
+            <p>$11.05</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="addon-item">
+            <img src="sample.jpg" alt="Addon">
+            <p>WordPress Pennant</p>
+            <p>$11.05</p>
+            <button>Add to Cart</button>
+        </div> 
+        <div class="addon-item">
+            <img src="sample.jpg" alt="Addon">
+            <p>WordPress Pennant</p>
+            <p>$11.05</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
