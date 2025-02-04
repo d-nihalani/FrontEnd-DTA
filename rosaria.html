@@ -1,18 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>Combined Page</title>
     <link rel="stylesheet" href="rosaria.css">
-
+    <link rel="stylesheet" href="productlist_style.css"> <!-- Include Product List CSS -->
 </head>
 <body>
 
-    <iframe src="header.html" title="Header" height="100"></iframe>
-    <div><iframe src="Carousel.html" title="Carousel" height="600"></iframe></div>
-    
+    <iframe src="header.html" class="Header"></iframe>
+    <div><iframe src="Carousel.html" class="Carousel"></iframe></div>
 
-    <iframe src="recentOrders.html" title="recentOrders" height="450"></iframe>
-    
-    <iframe src="footer.html" title="Footer" height="320"></iframe>
+    <!-- Featured Products Section -->
+    <section class="featured-products">
+        <div class="featured-header">
+            <h2>Featured Products</h2>
+            <a href="productlist.html" class="view-more">View More →</a>
+        </div>
+        <div class="featured-wrapper">
+            <div class="content-box">
+                <img src="photos/bestsellers/a1.jpg">
+                <p class="tag">#S1HJ87</p>
+                <p>Classic Red Rose Bouquet</p>
+                <p class="price">₹899</p>
+                <button class="button">Add to Cart</button>
+            </div>
+            <div class="content-box">
+                <img src="photos/bestsellers/a2.jpg">
+                <p class="tag">#C2KL54</p>
+                <p>Mixed Carnations Bouquet</p>
+                <p class="price">₹749</p>
+                <button class="button">Add to Cart</button>
+            </div>
+            <div class="content-box">
+                <img src="photos/bestsellers/a3.jpg">
+                <p class="tag">#O3DF21</p>
+                <p>Elegant Orchid Arrangement</p>
+                <p class="price">₹1,299</p>
+                <button class="button">Add to Cart</button>
+            </div>
+            <div class="content-box">
+                <img src="photos/bestsellers/a4.jpg">
+                <p class="tag">#L4PQ76</p>
+                <p>Lilies & Roses Combo</p>
+                <p class="price">₹1,099</p>
+                <button class="button">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <iframe src="recentOrders.html" class="recentOrders"></iframe>
+    <iframe src="footer.html" class="Footer" height="320"></iframe>
+
 </body>
 </html>
