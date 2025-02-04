@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 20px;
     display: flex;
-    justify-content: left;
+    /* justify-content: center; */
     align-items: center;
     min-height: 100vh;
     overflow: hidden;
@@ -14,7 +14,7 @@ body {
 /* Orders Container */
 .orders-container {
     background: rgb(252, 251, 251);
-    width: 90%;
+    width: 97%;
     max-width: 100%;
     text-align:justify;
 }
@@ -23,15 +23,19 @@ body {
 .orders-wrapper {
     display: flex;
     gap: 15px;
-    justify-content: left;;
+    padding: 20px;
+    justify-content: center;;
     /* flex-wrap: wrap;  */
     /* flex-direction: row; */
 }
 
 /* Title */
 h2 {
-    color: #333;
-    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f7b5ca;
 }
 
 /* Order Cards */
@@ -84,7 +88,8 @@ h2 {
 }
 
 .delivered {
-    background: #7b8e42;
+    color: white;
+    background: #880e0e;
 }
 
 /* Delivery Text */

@@ -62,7 +62,7 @@ iframe {
 /* Featured Products Grid */
 .featured-wrapper {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     gap: 40px;
     margin-top: 20px;
     flex-wrap: wrap;
