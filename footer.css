@@ -1,0 +1,133 @@
+
+/* footer section start */
+.footer{
+    font-size: 10px;
+}
+
+.footer .card_container{
+    display: flex;
+    gap: 1rem;
+} 
+.footer .card_container .card{
+    flex: 1 1 25rem;
+    padding: 15px;
+}
+.footer .card_container .card h3{
+    color: #333;
+    font-size: 1.2rem;
+    padding: .5rem 0;
+    margin: 0;
+}
+.footer .card_container .card a{
+    display: block;
+    color: #666;
+    font-size: .9rem;
+    padding: .5rem 0;
+}
+
+.footer .card_container .card a:hover{
+    color: #fb6f92;
+    text-decoration: underline;
+}
+.footer .card_container .card img{
+    margin-top: 1rem;
+    height: auto;
+    width: 100%; 
+}
+.footer .copyright{
+    text-align: center;
+    padding: 1rem;
+    margin-top: .5rem;
+    margin-bottom: 0;
+    padding: 0.5rem;
+    font-size: .7rem;
+    color: #333;
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
+}
+.footer .copyright span{
+    color: #fb6f92;
+}
+.fa-instagram {
+    font-size: 10px;
+    color: #E4405F; 
+}
+.fa-brands {
+    font-size: 20px;
+    margin: 2px;
+    text-decoration: none;
+}
+
+/* Twitter */
+.fa-twitter {
+    color: #1DA1F2;
+}
+
+/* Facebook */
+.fa-facebook {
+    color: #1877F2;
+}
+
+/* YouTube */
+.fa-youtube {
+    color: #FF0000;
+}
+
+
+/* Make icons appear in horizontal order */
+.card .social-icons {
+    display: flex;
+    justify-content: center; 
+    gap: 15px; 
+    
+}
+
+/* Style for social media icons */
+.social-icons a {
+    font-size: 20px; 
+    color: white; 
+    text-decoration: none;
+    
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effects */
+.social-icons a:hover .fa-twitter {
+    color: #1DA1F2;
+    transform: scale(1.2);
+}
+
+.social-icons a:hover .fa-facebook {
+    color: #1877F2;
+    transform: scale(1.2);
+}
+
+.social-icons a:hover .fa-youtube {
+    color: #FF0000;
+    transform: scale(1.2);
+}
+
+.social-icons a:hover .fa-instagram {
+    color: #E4405F;
+    transform: scale(1.2);
+}
+.signup-button:hover {
+    background-color: #2c3e50;
+    color: white;
+}
+.signup-button {
+    background: none;
+    border: 2px solid #2c3e50; 
+    color: #2c3e50;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.signup-text {
+    font-size: 15px;
+    color: #566981;
+    margin: 15px 0;
+}
+
