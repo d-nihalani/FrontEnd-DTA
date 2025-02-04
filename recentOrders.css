@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 20px;
     display: flex;
-    justify-content: left;
+    /* justify-content: center; */
     align-items: center;
     min-height: 100vh;
     overflow: hidden;
@@ -13,12 +13,9 @@ body {
 
 /* Orders Container */
 .orders-container {
-    background: white;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-    width: 90%;
-    max-width: 900px;
+    background: rgb(252, 251, 251);
+    width: 97%;
+    max-width: 100%;
     text-align:justify;
 }
 
@@ -26,23 +23,29 @@ body {
 .orders-wrapper {
     display: flex;
     gap: 15px;
-    justify-content: center;
-    flex-wrap: wrap; 
+    padding: 20px;
+    justify-content: center;;
+    /* flex-wrap: wrap;  */
+    /* flex-direction: row; */
 }
 
 /* Title */
 h2 {
-    color: #333;
-    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f7b5ca;
 }
 
 /* Order Cards */
 .order-card {
-    background: #FFC6C6; 
+    background: rgb(251, 237, 237); 
     border-radius: 10px;
-    padding: 15px;
-    width: 250px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 350px;
+    height: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -85,7 +88,8 @@ h2 {
 }
 
 .delivered {
-    background: #7b8e42;
+    color: white;
+    background: #880e0e;
 }
 
 /* Delivery Text */
