@@ -1,0 +1,34 @@
+iframe {
+    width: 100%;
+    border: none;
+    overflow: hidden; /* Prevents scrollbars */
+    display: block;
+}
+
+iframe::-webkit-scrollbar {
+    display: none; /* Hides scrollbar in WebKit browsers */
+}
+iframe {
+    width: 100%;
+    border: none; 
+}
+
+
+
+ .Carousel {
+  /* background-color: lightgray; */
+  /* padding: 20px; */
+    margin: 0;
+    overflow: hidden;    
+    /* height: 500px; */
+}
+
+.recentOrders{
+    height: 400px;
+    /* width: 1040px; */
+}
+
+.Footer{
+ display: flex;
+}
+
