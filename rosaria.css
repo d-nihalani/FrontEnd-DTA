@@ -1,18 +1,13 @@
+body{
+ background-color: #F7B5CA;
+}
+
 iframe {
     width: 100%;
     border: none;
     overflow: hidden; /* Prevents scrollbars */
     display: block;
 }
-
-iframe::-webkit-scrollbar {
-    display: none; /* Hides scrollbar in WebKit browsers */
-}
-iframe {
-    width: 100%;
-    border: none; 
-}
-
 .Header{
     height: 100px;
 }
@@ -27,11 +22,10 @@ iframe {
 }
 /* Featured Products Section */
 .featured-products {
-    width: 95%;
+    width: 100%;
     padding: 20px;
-    background: white;
-
     text-align: center;
+    margin:  0 20px;
 }
 
 /* Header with "View More" link */
@@ -49,7 +43,7 @@ iframe {
 }
 
 .view-more {
-    color: #f07b88;
+    color:white;
     text-decoration: none;
     font-size: 14px;
     font-weight: bold;
@@ -62,9 +56,9 @@ iframe {
 /* Featured Products Grid */
 .featured-wrapper {
     display: flex;
-    justify-content: center;
-    gap: 40px;
-    margin-top: 20px;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin: 10px;
     flex-wrap: wrap;
 }
 
@@ -101,11 +95,11 @@ iframe {
 }
 
 .button {
-    background-color: #F7B5CA;
+    background-color: #F0A8D0;
     border: 0;
     border-radius: 20px;
     color: white;
-    padding: 8px 20px;
+    padding: 8px 20px ;
     font-size: medium;
     font-weight: bold;
     margin: 10px;
@@ -123,6 +117,12 @@ iframe {
 .Footer{
  display: flex;
  height:320px;
+}
+
+@media (max-width: 768px){
+    iframe .recentOrders{
+        height: 900px;
+    }
 }
 
 

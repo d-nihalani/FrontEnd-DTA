@@ -25,28 +25,28 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    background-color: #fff;
+    background-color: #FFEBD4;
     padding: 2rem 9%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     z-index: 1000;
-    box-shadow: 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    
 
 }
 
 /*logo*/
 .logo {
     font-size: 24px;
-    font-family: 'Brush Script MT', cursive;
     font-weight: bold;
     display: flex;
     align-items: center;
 }
 .logo img {
-    width: 120px;
+    width: 150px;
     height: auto;
     margin-right: 5px;
+    cursor: pointer;
 }
 
 /* header navbar ancher tag */
@@ -57,7 +57,7 @@ header .navbar a {
 }
 
 header .navbar a:hover {
-    color: #fdc5f5;
+    color: #c74898;
     font-weight: 500;
     transition: none;
 }
@@ -65,12 +65,12 @@ header .navbar a:hover {
 /* header navbar icons anchor tag */
 header .icons a {
     font-size: 3rem;
-    color: #333;
+    color: #ec7eba;
     margin-left: 1.5rem;
 }
 
 header .icons a:hover {
-    color: #fb6f92;
+    color: #b15169;
     font-weight: 600;
     transition: none;
 }

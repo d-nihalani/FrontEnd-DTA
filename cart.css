@@ -22,6 +22,7 @@ a{
     margin: auto;
     border: 5px solid #F0A8D0;
     border-radius: 15px ;
+   
 }
 
 .cart-section {
@@ -29,6 +30,7 @@ a{
     border-radius: 20px 0px 0px 20px  ;
     background-color: #FFEBD4;
     width: 90%;
+    box-shadow: 7px 7px 7px #bd548e;
 }
 .cart-section h2 {
     text-align: center;
@@ -44,6 +46,7 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    box-shadow: 7px 7px 7px #bd548e;
 }
 
 table {
@@ -123,6 +126,7 @@ th {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    
 }
 
 
@@ -181,6 +185,7 @@ text-align: right ;
 
 .cart-addons {
     max-height: 30%;
+    
 }
 
 .cart-addons h2 {
@@ -198,6 +203,7 @@ text-align: right ;
     justify-content: center;
     border-radius: 20px;
     width: 85%;
+    box-shadow: 7px 7px 7px #bd548e;
     margin: 0 8%;}
 
 .addon-item {
