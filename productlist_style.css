@@ -1,20 +1,17 @@
-/* body{
-n
+body{
     background-color: #F0A8D0;
-    margin-top: 30px;
-    font-family: Arial;
+    margin-top: 100px;
     padding: 50px;
     padding-top: 25px;
     padding-bottom: 25px;
-} */
-n
+}
 
 h1, h2{
     margin-bottom: 0px;
 }
 
 .container{
-    background-color: #fcf3e9;
+    background-color: #ffebd4;
     display: grid;
     row-gap: 20px;
     border-radius: 20px;
@@ -24,7 +21,8 @@ h1, h2{
 
 .bestsellers, .birthday, .anniversary, .exotic, .sympathy{
     display: flex;
-    column-gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     align-items: center;
 }
 

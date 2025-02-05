@@ -24,7 +24,6 @@ iframe {
 .featured-products {
     width: 100%;
     padding: 20px;
-    text-align: center;
     margin:  0 20px;
 }
 
@@ -95,14 +94,17 @@ iframe {
 }
 
 .button {
-    background-color: #F0A8D0;
-    border: 0;
+    background-color: #F7B5CA;
+    border: 0px;
     border-radius: 20px;
     color: white;
-    padding: 8px 20px ;
-    font-size: medium;
+    padding-left: 60px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: large;
     font-weight: bold;
-    margin: 10px;
+    margin-left: 15px;
     cursor: pointer;
 }
 

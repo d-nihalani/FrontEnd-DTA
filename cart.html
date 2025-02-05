@@ -6,8 +6,32 @@
     <title>Cart Checkout</title>
     <link rel="stylesheet" href="cart.css">
     <script src="https://kit.fontawesome.com/fcc5188dd3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="header.css"> 
 </head>
 <body>
+
+    <header>
+        <!-- input -->
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fa fa-bars"></label>
+    
+        <div class="logo">
+            <img src="logo1.png" alt="Rosaria logo">
+        </div>
+        <nav class="navbar">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#product">Products</a>
+          <a href="#review">Review</a>
+          <a href="#contact">Contact</a>
+        </nav>
+    
+        <div class="icons">
+          <a href="" class="fas fa-heart"></a>
+          <a href="" onclick="window.parent.location.href='cart.html'; return false;" class="fa-solid fa-cart-shopping"></a>
+          <a href="" class="fa-solid fa-user"></a>
+        </div>
+      </header>
 
 <div class="container">
     <!-- Cart Section -->
@@ -180,6 +204,8 @@
             <button class="icon-btn"><i class="fa-solid fa-caret-right" style="color: white;"></i></div></button>
     </div>
 </div>
+<iframe src="footer.html" class="Footer" height="320" width="100%"></iframe>
+
 
 </body>
 </html>
